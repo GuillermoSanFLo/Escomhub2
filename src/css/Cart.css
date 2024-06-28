@@ -1,0 +1,33 @@
+.cart-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .total-card {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .btn-outline-secondary {
+    color: #6c757d;
+  }
+  
+  .btn-outline-secondary:hover {
+    color: #343a40;
+  }
+  
+  .btn-outline-danger {
+    color: #dc3545;
+  }
+  
+  .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+  }
+  

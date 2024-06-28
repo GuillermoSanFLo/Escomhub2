@@ -1,0 +1,53 @@
+.carousel-background {
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Ajustar el tamaño del fondo */
+}
+
+.custom-caption {
+  padding: 50px;
+  border-radius: 50px;
+  width: 100%; /* Asegurar que el caption ocupe todo el ancho */
+}
+
+.text-container {
+  color: white; 
+  max-width: 60%; /* Ajustar el ancho del contenedor de texto */
+  margin-left: 20%; /* Centrar el texto un poco más */
+}
+
+.text-container h3 {
+  font-size: 3rem; /* Hacer el texto más grande */
+}
+
+.text-container p {
+  font-size: 1.55rem; /* Hacer la descripción más grande */
+}
+
+.overlay-image {
+  max-width: 65%; /* Ajustar el tamaño de la imagen superpuesta */
+  display: block;
+  margin-right: 15%; /* Alejar la imagen del borde derecho */
+}
+
+.carousel-caption h3 {
+  color: white; 
+}
+
+.carousel-caption p {
+  color: white; 
+}
+
+.buy-button {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.carousel .carousel-caption {
+  right: 50%;
+  left: 0;
+  text-align: left;
+}

@@ -1,0 +1,43 @@
+.contact-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  .contact-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-name {
+    background-color: #072a4f;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .contact-details {
+    padding-top: 10px;
+  }
+  
+  .contact-info {
+    background-color: #072a4f;
+    color: white;
+    padding: 1px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .qr-image {
+    max-width: 150px; /* Ajusta el tamaño según sea necesario */
+    max-height: 150px; /* Ajusta el tamaño según sea necesario */
+    cursor: pointer;
+  }
+  

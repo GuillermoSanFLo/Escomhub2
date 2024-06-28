@@ -1,0 +1,26 @@
+/* MiCuenta.css */
+
+/* Establecer el color de fondo */
+body {
+    background-color: #ffffff;
+  }
+  
+  /* Estilos para el botón de editar perfil */
+  .edit-profile-button {
+    text-align: center;
+    margin-bottom: 20px; /* Espacio debajo del botón */
+  }
+  
+  /* Estilos para la barra de formato de texto */
+  .text-format-bar {
+    margin-bottom: 20px; /* Espacio debajo de la barra */
+  }
+  
+  /* Estilos adicionales */
+  .mi-cuenta-card {
+    background-color: #E5DFD3; /* Color de fondo del card */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaciado interior */
+  }
+  

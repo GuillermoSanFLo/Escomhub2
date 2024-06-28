@@ -1,0 +1,124 @@
+/* Pago.css */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card {
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card-body p {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 500;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    font-weight: 500;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  .form-label {
+    font-weight: 600;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+  
+  .radio-label {
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .radio-selected {
+    border: 2px solid #007bff;
+  }
+  
+  .radio-container {
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+    border: 1px solid transparent;
+  }
+  
+  .radio-container:hover {
+    border-color: #007bff;
+  }
+  
+  .radio-container input {
+    display: none;
+  }
+  
+  .radio-container input:checked + label {
+    color: #007bff;
+  }
+  
+  textarea,
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  textarea:focus,
+  input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-group {
+    width: 100%;
+  }
+  

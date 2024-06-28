@@ -1,0 +1,39 @@
+/* RecuperarContra.css */
+
+.card {
+    border: none; 
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  .card-body {
+    padding: 2rem; 
+  }
+  
+  .form-group {
+    margin-bottom: 1rem; 
+  }
+  
+  .btn-continuar {
+    background-color: #6c757d; /* Gris */
+    border-color: #6c757d;
+    color: #fff; /* Texto blanco */
+    margin-right: 20%;
+  }
+  
+  .btn-continuar:hover {
+    background-color: #5a6268; /* Gris más oscuro */
+    border-color: #5a6268;
+  }
+  
+  .btn-cancelar {
+    background-color: #dc3545; /* Rojo */
+    border-color: #dc3545;
+    color: #fff; /* Texto blanco */
+  }
+  
+  .btn-cancelar:hover {
+    background-color: #c82333; /* Rojo más oscuro */
+    border-color: #bd2130;
+  }
+  

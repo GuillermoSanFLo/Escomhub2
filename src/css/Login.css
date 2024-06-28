@@ -1,0 +1,79 @@
+.card {
+  border: none; 
+  background: transparent;
+  box-shadow: none;
+}
+
+.card-body {
+  padding: 2rem; 
+}
+
+.form-group {
+  margin-bottom: 1rem; 
+}
+
+.btn-primary {
+  background-color: #0056b3; 
+  border-color: #0056b3;
+}
+
+.btn-primary:hover {
+  background-color: #004494;
+  border-color: #004494;
+}
+
+.login-image-container {
+  position: relative;
+  text-align: center;
+}
+
+.login-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.image-text-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  color: white;
+  text-align: right;
+}
+
+.image-text-overlay p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.image-text-overlay p span {
+  font-weight: bold;
+}
+
+.elegant-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.elegant-button:hover {
+  background-color: #0056b3;
+}
+
+.text-center p {
+  margin-bottom: 0.5rem;
+}
+
+.text-center p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-center p a:hover {
+  text-decoration: underline;
+}

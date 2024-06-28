@@ -1,0 +1,43 @@
+.preguntas-generales {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pregunta {
+    margin-bottom: 20px;
+  }
+  
+  .opciones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .opciones button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .opciones button:hover {
+    background-color: #0056b3;
+  }
+  
+  .respuestas {
+    margin-top: 20px;
+  }
+  
+  .respuestas h4 {
+    margin-bottom: 10px;
+  }
+  
+  .respuestas p {
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,71 @@
+.register-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register-form {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-floating .form-control {
+    height: calc(3.5rem + 2px);
+    padding: 1rem 1.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .form-floating > label {
+    padding: 1rem 1.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .account-type-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .account-type-selection .btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .selected-categories {
+    margin-top: 10px;
+  }
+  
+  .selected-category {
+    display: inline-block;
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 0.875rem;
+  }
+  
+  .selected-category span {
+    margin-left: 5px;
+    cursor: pointer;
+    color: red;
+  }
+  

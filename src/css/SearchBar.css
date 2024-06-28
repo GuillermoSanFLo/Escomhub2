@@ -1,0 +1,55 @@
+.search-bar {
+  background-color: #0056b3; /* Fondo azul */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.search-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-container .form-control {
+  width: auto;
+  min-width: 200px;
+  margin-left: 10px; /* Separación entre el botón de búsqueda y el input */
+}
+
+.search-container .btn-warning {
+  background-color: rgb(255, 132, 0); /* Fondo amarillo para el botón de búsqueda */
+  border: none; /* Sin borde para el botón de búsqueda */
+  color: black; /* Color del texto del botón de búsqueda */
+}
+
+.search-bar .btn-cart-user {
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto blanco */
+  font-size: 1.2em; /* Aumentar el tamaño de la fuente */
+  display: flex; /* Usar flexbox para alinear el texto y el ícono */
+  align-items: center; /* Alinear verticalmente al centro */
+  margin-right: 10px; /* Margen derecho */
+  text-decoration: none; /* Quitar subrayado */
+}
+
+.search-bar .btn-cart-user .ms-2 {
+  margin-left: 0.5rem; /* Espaciado a la izquierda del ícono */
+  font-size: 1.5em; /* Aumentar tamaño del ícono */
+}
+
+.search-bar .btn-cart-user .badge {
+  margin-left: 0.5rem; /* Espaciado a la izquierda de la etiqueta */
+}
+
+.search-bar .btn-cart-user:hover {
+  text-decoration: none; /* Asegurar que no aparezca subrayado al pasar el cursor */
+}
+
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}

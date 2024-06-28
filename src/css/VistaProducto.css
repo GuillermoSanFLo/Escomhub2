@@ -1,0 +1,145 @@
+.vista-producto-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.product-detail {
+  margin-bottom: 20px;
+}
+
+.product-detail-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-detail-header h1 {
+  font-size: 2.5em; /* Aumentado el tamaño del título principal */
+}
+
+.product-detail-header p {
+  font-size: 1.8em; /* Aumentado el tamaño del precio */
+  color: red;
+}
+
+.product-rating {
+  font-size: 1.3em; /* Aumentado el tamaño de las calificaciones */
+  color: gold;
+}
+
+.product-rating .filled {
+  color: gold;
+}
+
+.product-detail-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-detail-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-description, .product-contact, .product-reviews {
+  flex: 1 1 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.product-description p, .product-contact p, .product-reviews p {
+  margin-bottom: 10px;
+}
+
+.product-sold-bar {
+  position: relative;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.product-sold-bar .sold-progress {
+  height: 100%;
+  transition: width 0.5s;
+}
+
+.product-sold-bar span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.product-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-actions .btn {
+  margin: 10px;
+}
+
+.related-products {
+  margin-top: 20px;
+  background-color: #f5f5f5; /* Fondo gris claro para el contenedor de productos relacionados */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.related-products h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em; /* Aumentado el tamaño del título "También te podría interesar esto" */
+}
+
+.related-products-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.related-product {
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff; /* Fondo blanco para cada producto relacionado */
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+}
+
+.related-product-image {
+  width: 25%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.related-product-info {
+  padding: 10px;
+}
+
+.product-stock {
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 20px;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}

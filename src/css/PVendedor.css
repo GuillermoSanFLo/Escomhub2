@@ -1,0 +1,75 @@
+/* PVendedor.css */
+
+.producto-container {
+    background-color: #f0f0f0; /* Fondo gris para el contenedor de productos */
+    padding: 20px;
+  }
+  
+  .producto-card {
+    margin-bottom: 20px;
+  }
+  
+  .producto-card .card {
+    height: 100%;
+    transition: transform 0.2s;
+  }
+  
+  .producto-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .producto-card .card-img-left {
+    width: 200px; /* Ancho fijo para la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  .producto-card .card-body {
+    display: flex;
+    align-items: flex-start; /* Alinear contenido al inicio */
+    padding-left: 20px; /* Espacio a la izquierda del cuerpo de la tarjeta */
+  }
+  
+  .producto-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .producto-card .card-text {
+    flex-grow: 1;
+    padding-left: 20px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .producto-card .precio {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  .producto-card .cantidad-vendida {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .producto-card .estrellas {
+    color: #ffc107;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .producto-card .acciones {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .producto-card .icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #dc3545;
+    transition: transform 0.2s;
+  }
+  
+  .producto-card .icon:hover {
+    transform: scale(1.1);
+  }
+  

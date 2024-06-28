@@ -1,0 +1,22 @@
+
+
+.header {
+    background-color: #0056b3; 
+    color: white;
+    text-align: center;
+    padding: 10px; 
+  }
+  
+  .logo {
+    width: 300px; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  .lema {
+    color: white;
+    margin-top: 20px; 
+    font-size: 24px;
+  }
+  
